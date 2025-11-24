@@ -20,6 +20,7 @@ public class CustomerController {
 
     @GetMapping("/api/customers")
     public ResponseEntity<List<String>> customers() {
+        System.out.println("Get Customers");
         return ResponseEntity.ok(service.getCustomers());
     }
 

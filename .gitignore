@@ -1,33 +1,111 @@
+# ==== Project files ====
+# keep README etc (don't ignore HELP.md unless you want)
 HELP.md
+
+# Maven / build
 target/
-.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.properties
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Gradle (if ever used)
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### IntelliJ IDEA ###
-.idea
+# ==== Logs & runtime files ====
+logs/
+*.log
+*.log.*
+hs_err_pid*
+replay_pid*
+
+# ==== IDEs / editors ====
+# IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
 
-### NetBeans ###
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.apt_generated
+.factorypath
+.sts4-cache
+
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
+
+# ==== OS files ====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# linux
+*~
+
+# ==== Dependency caches & packaging ====
+# Local Maven repo? usually not needed, but keep to be safe
+# .m2/repository/   # usually should not be checked in; don't uncomment unless necessary
+
+# ==== Test reports & coverage ====
+/target/surefire-reports/
+target/failsafe-reports/
+jacoco.exec
+coverage/
+
+# ==== IDE run configs / local environment ====
+*.env
+*.local
+.env.*
+*.properties.local
+application-*.local.properties
+
+# ==== Container / Docker ====
+docker-compose.override.yml
+docker-compose.*.yml
+.Dockerfile.swp
+
+# ==== Generated / misc ====
+*.class
+*.war
+*.jar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==== Node / front-end (if any) ====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# ==== Others commonly ignored ====
+*.iml
+*.log
+*.tmp
+*.cache

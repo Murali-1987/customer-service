@@ -109,3 +109,5 @@ build/
 *.log
 *.tmp
 *.cache
+logs/
+"logs/" 

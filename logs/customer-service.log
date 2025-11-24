@@ -344,3 +344,43 @@ java.lang.NoSuchMethodException: interface java.util.List class com.murali.custo
 2025-11-24T12:51:56,598 [] [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-11-24T12:51:56,599 [] [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2025-11-24T12:51:56,602 [] [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-24T15:45:27,466 [] [main] INFO  com.murali.customer_service.CustomerServiceApplication - Starting CustomerServiceApplication using Java 21.0.9 with PID 3660 (D:\1. ABrainCode\ProjectHub\SprinbootMicro\workspace\customer-service\target\classes started by murali.p in D:\1. ABrainCode\ProjectHub\SprinbootMicro\workspace\customer-service)
+2025-11-24T15:45:27,475 [] [main] DEBUG com.murali.customer_service.CustomerServiceApplication - Running with Spring Boot v3.4.12, Spring v6.2.14
+2025-11-24T15:45:27,477 [] [main] INFO  com.murali.customer_service.CustomerServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-24T15:45:28,154 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava2OnClasspathCondition - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-11-24T15:45:28,155 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava3OnClasspathCondition - RxJava3 related Aspect extensions are not activated, because RxJava3 is not on the classpath.
+2025-11-24T15:45:28,155 [] [main] DEBUG io.github.resilience4j.spring6.utils.ReactorOnClasspathCondition - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-11-24T15:45:28,165 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava2OnClasspathCondition - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-11-24T15:45:28,166 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava3OnClasspathCondition - RxJava3 related Aspect extensions are not activated, because RxJava3 is not on the classpath.
+2025-11-24T15:45:28,166 [] [main] DEBUG io.github.resilience4j.spring6.utils.ReactorOnClasspathCondition - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-11-24T15:45:28,192 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava2OnClasspathCondition - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-11-24T15:45:28,192 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava3OnClasspathCondition - RxJava3 related Aspect extensions are not activated, because RxJava3 is not on the classpath.
+2025-11-24T15:45:28,192 [] [main] DEBUG io.github.resilience4j.spring6.utils.ReactorOnClasspathCondition - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-11-24T15:45:28,207 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava2OnClasspathCondition - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-11-24T15:45:28,207 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava3OnClasspathCondition - RxJava3 related Aspect extensions are not activated, because RxJava3 is not on the classpath.
+2025-11-24T15:45:28,208 [] [main] DEBUG io.github.resilience4j.spring6.utils.ReactorOnClasspathCondition - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-11-24T15:45:28,219 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava2OnClasspathCondition - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-11-24T15:45:28,219 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava3OnClasspathCondition - RxJava3 related Aspect extensions are not activated, because RxJava3 is not on the classpath.
+2025-11-24T15:45:28,219 [] [main] DEBUG io.github.resilience4j.spring6.utils.ReactorOnClasspathCondition - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-11-24T15:45:28,232 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava2OnClasspathCondition - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-11-24T15:45:28,233 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava3OnClasspathCondition - RxJava3 related Aspect extensions are not activated, because RxJava3 is not on the classpath.
+2025-11-24T15:45:28,233 [] [main] DEBUG io.github.resilience4j.spring6.utils.ReactorOnClasspathCondition - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-11-24T15:45:28,245 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava2OnClasspathCondition - RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2025-11-24T15:45:28,246 [] [main] DEBUG io.github.resilience4j.spring6.utils.RxJava3OnClasspathCondition - RxJava3 related Aspect extensions are not activated, because RxJava3 is not on the classpath.
+2025-11-24T15:45:28,246 [] [main] DEBUG io.github.resilience4j.spring6.utils.ReactorOnClasspathCondition - Reactor related Aspect extensions are not activated because Reactor is not on the classpath.
+2025-11-24T15:45:29,214 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-24T15:45:29,225 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-24T15:45:29,227 [] [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-24T15:45:29,227 [] [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-24T15:45:29,274 [] [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-24T15:45:29,281 [] [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1757 ms
+2025-11-24T15:45:31,818 [] [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-11-24T15:45:31,970 [] [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-24T15:45:32,095 [] [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-11-24T15:45:32,125 [] [main] INFO  com.murali.customer_service.CustomerServiceApplication - Started CustomerServiceApplication in 5.038 seconds (process running for 6.074)
+2025-11-24T15:45:52,026 [] [http-nio-8080-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-24T15:45:52,027 [] [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-24T15:45:52,029 [] [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-24T15:45:52,115 [] [http-nio-8080-exec-4] DEBUG io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect - Created or retrieved circuit breaker 'customerServiceCB' with failure rate '50.0' for method: 'com.murali.customer_service.service.CustomerService#getCustomers'
+2025-11-24T15:45:52,120 [] [http-nio-8080-exec-4] DEBUG io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine - CircuitBreaker 'customerServiceCB' succeeded:
+2025-11-24T15:45:52,122 [] [http-nio-8080-exec-4] DEBUG io.github.resilience4j.circuitbreaker.internal.CircuitBreakerStateMachine - Event SUCCESS published: 2025-11-24T15:45:52.121471900+05:30[Asia/Calcutta]: CircuitBreaker 'customerServiceCB' recorded a successful call. Elapsed time: 0 ms

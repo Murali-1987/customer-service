@@ -16,6 +16,7 @@ public class CustomerService {
 
     @CircuitBreaker(name = "customerCB", fallbackMethod = "customerFallback")
     public List<String> getCustomers(boolean fail) {
+        System.out.println("boolean fail : "+fail);
         if (fail) {
             throw new RuntimeException("forced-failure-for-testing");
         }

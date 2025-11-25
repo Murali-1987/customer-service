@@ -27,6 +27,7 @@ public class CustomerController {
     // Accept query param ?fail=true to simulate failure
     @GetMapping("/api/customers_cb")
     public List<String> customers(@RequestParam(name="fail", required=false, defaultValue="false") boolean fail) {
+        System.out.println("Get customers_cb to simulate failure");
         return service.getCustomers(fail);
     }
 
